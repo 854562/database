@@ -20,8 +20,6 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Balanced Tier 1
-  score: 140000
 - name: 1080p WEB-DL (h264)
   score: 140000
 - name: 720p WEB-DL
@@ -134,6 +132,8 @@ custom_formats:
   score: -999999
 - name: B&W
   score: -999999
+- name: Bad Dual Groups (TRaSH)
+  score: -999999
 - name: Banned Groups (Efficient)
   score: -999999
 - name: Banned Groups (Title)
@@ -148,7 +148,13 @@ custom_formats:
   score: -999999
 - name: Lossless Audio
   score: -999999
+- name: LQ (TRaSH)
+  score: -999999
+- name: LQ RT (TRaSH)
+  score: -999999
 - name: Remux
+  score: -999999
+- name: Scene (TRaSH)
   score: -999999
 - name: UHD Bluray (Efficient)
   score: -999999
@@ -191,6 +197,8 @@ custom_formats_radarr:
   score: 161000
 - name: 1080p Efficient Movie WEB Tier 4
   score: 160000
+- name: 1080p Balanced Tier 1
+  score: 140000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
@@ -219,10 +227,6 @@ custom_formats_radarr:
   score: -999999
 custom_formats_sonarr:
 - name: 1080p Efficient TV Bluray Tier 1
-  score: 184000
-- name: QxR Bluray
-  score: 184000
-- name: TAoE Bluray
   score: 184000
 - name: 1080p Efficient TV Bluray Tier 2
   score: 183000
@@ -309,4 +313,4 @@ upgrade_until:
   description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
-language: must_original
+language: original

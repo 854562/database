@@ -35,6 +35,8 @@ custom_formats:
   score: 82000
 - name: 1080p Quality Tier 4
   score: 81000
+- name: 1080p Quality Tier (TRaSH)
+  score: 80000
 - name: 1080p Quality Tier 5
   score: 80000
 - name: 720p Bluray
@@ -105,6 +107,8 @@ custom_formats:
   score: 400
 - name: DTS-ES
   score: 400
+- name: DTS-HD MA
+  score: 400
 - name: Dolby Digital
   score: 200
 - name: DTS
@@ -151,6 +155,8 @@ custom_formats:
   score: -999999
 - name: B&W
   score: -999999
+- name: Bad Dual Groups (TRaSH)
+  score: -999999
 - name: Banned Groups
   score: -999999
 - name: Banned Groups (Title)
@@ -165,7 +171,13 @@ custom_formats:
   score: -999999
 - name: h265
   score: -999999
+- name: LQ (TRaSH)
+  score: -999999
+- name: LQ RT (TRaSH)
+  score: -999999
 - name: Remux
+  score: -999999
+- name: Scene (TRaSH)
   score: -999999
 - name: VP9
   score: -999999
@@ -184,6 +196,10 @@ custom_formats_radarr:
   score: 4000
 - name: SD Golden Popcorn
   score: 4000
+- name: IMAX Enhanced
+  score: 2500
+- name: Hybrid
+  score: 2000
 - name: Better Theatricals
   score: 1000
 - name: CRIT
@@ -250,4 +266,4 @@ upgrade_until:
   name: Transparent Capable
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
-language: must_original
+language: original

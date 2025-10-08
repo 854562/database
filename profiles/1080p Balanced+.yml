@@ -23,8 +23,6 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Bluray HEVC Tier 1
-  score: 180000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 160000
 - name: 1080p Balanced Tier 1
@@ -97,6 +95,8 @@ custom_formats:
   score: 400
 - name: DTS-ES
   score: 400
+- name: DTS-HD MA
+  score: 400
 - name: Dolby Digital
   score: 200
 - name: DTS
@@ -141,6 +141,8 @@ custom_formats:
   score: -999999
 - name: B&W
   score: -999999
+- name: Bad Dual Groups (TRaSH)
+  score: -999999
 - name: Banned Groups
   score: -999999
 - name: Banned Groups (Title)
@@ -153,7 +155,13 @@ custom_formats:
   score: -999999
 - name: h265 (Efficient)
   score: -999999
+- name: LQ (TRaSH)
+  score: -999999
+- name: LQ RT (TRaSH)
+  score: -999999
 - name: Remux
+  score: -999999
+- name: Scene (TRaSH)
   score: -999999
 - name: VP9
   score: -999999
@@ -164,6 +172,8 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
+- name: 1080p Bluray HEVC Tier 1
+  score: 180000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
@@ -236,4 +246,4 @@ upgrade_until:
   description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
-language: must_original
+language: original

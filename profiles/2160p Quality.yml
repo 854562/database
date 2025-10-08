@@ -8,7 +8,17 @@ description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://d
   - Fallbacks in Place for Proper Quality Progression
 
   - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
-  WEB-DL > 480p WEB-DL > DVD'
+  WEB-DL > 480p WEB-DL > DVD
+
+
+  Additions:
+
+  - DV profile 5 allowed
+
+  - Fallback to Remux-1080p and nothing else ("regular" HD version already downloaded
+  by standard Radarr)
+
+  - Several TRaSH formats'
 tags:
 - 2160p
 - Quality Focused
@@ -37,6 +47,8 @@ custom_formats:
   score: 260000
 - name: 2160p WEB-DL
   score: 260000
+- name: 2160p Quality Tier (TRaSH)
+  score: 259000
 - name: 2160p Quality Tier 6
   score: 259000
 - name: 1080p Remux
@@ -139,6 +151,8 @@ custom_formats:
   score: -999999
 - name: B&W
   score: -999999
+- name: Bad Dual Groups (TRaSH)
+  score: -999999
 - name: Banned Groups
   score: -999999
 - name: Banned Groups (Title)
@@ -151,7 +165,13 @@ custom_formats:
   score: -999999
 - name: h265
   score: -999999
+- name: LQ (TRaSH)
+  score: -999999
+- name: LQ RT (TRaSH)
+  score: -999999
 - name: Remux
+  score: -999999
+- name: Scene (TRaSH)
   score: -999999
 - name: VP9
   score: -999999
@@ -174,9 +194,13 @@ custom_formats_radarr:
   score: 4000
 - name: iT
   score: 4000
+- name: IMAX Enhanced
+  score: 2500
 - name: Amazon Enhancement
   score: 2000
 - name: HMAX
+  score: 2000
+- name: Hybrid
   score: 2000
 - name: MAX
   score: 2000
@@ -232,6 +256,8 @@ qualities:
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
+- id: 8
+  name: Remux-1080p
 upgrade_until:
   id: -1
   name: 2160p Transparent
