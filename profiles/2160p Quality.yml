@@ -39,56 +39,6 @@ custom_formats:
   score: 260000
 - name: 2160p Quality Tier 6
   score: 259000
-- name: UHD Bluray
-  score: 240000
-- name: UHD Bluray (Missing)
-  score: 240000
-- name: 1080p WEB-DL
-  score: 200000
-- name: 1080p Bluray
-  score: 140000
-- name: 1080p WEBRip
-  score: 140000
-- name: 720p WEB-DL
-  score: 100000
-- name: 1080p Quality Tier 1
-  score: 84000
-- name: 1080p Quality Tier 2
-  score: 83000
-- name: 1080p Quality Tier 3
-  score: 82000
-- name: 1080p Quality Tier 4
-  score: 81000
-- name: 1080p Quality Tier 5
-  score: 80000
-- name: 720p Bluray
-  score: 80000
-- name: 720p WEBRip
-  score: 80000
-- name: 1080p Balanced Tier 1
-  score: 60000
-- name: 480p WEB-DL
-  score: 60000
-- name: 720p Quality Tier 1
-  score: 44000
-- name: 720p Quality Tier 2
-  score: 43000
-- name: 720p Quality Tier 3
-  score: 42000
-- name: 720p Quality Tier 4
-  score: 41000
-- name: 720p Quality Tier 5
-  score: 40000
-- name: 720p Balanced Tier 1
-  score: 20000
-- name: DVD
-  score: 20000
-- name: DVD Remux
-  score: 20000
-- name: SD Quality Tier 1
-  score: 11000
-- name: SD Quality Tier 2
-  score: 10000
 - name: Dolby Vision
   score: 3000
 - name: AMZN
@@ -187,8 +137,6 @@ custom_formats:
   score: -999999
 - name: Banned WEBRip
   score: -999999
-- name: Dolby Vision (Without Fallback)
-  score: -999999
 - name: Full Disc
   score: -999999
 - name: h265
@@ -208,10 +156,6 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 1080p Golden Popcorn
-  score: 8000
-- name: 720p Golden Popcorn
-  score: 6000
 - name: MA
   score: 6000
 - name: ATVP
@@ -219,8 +163,6 @@ custom_formats_radarr:
 - name: DSNP
   score: 4000
 - name: iT
-  score: 4000
-- name: SD Golden Popcorn
   score: 4000
 - name: Amazon Enhancement
   score: 2000
@@ -280,40 +222,8 @@ qualities:
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
-- id: -2
-  name: 1080p Transparent
-  description: Indistinguishable from source
-  qualities:
-  - id: 10
-    name: Bluray-1080p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-- id: -3
-  name: 720p Fallback
-  description: Fallback to 720p when 1080p cannot be found.
-  qualities:
-  - id: 13
-    name: Bluray-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
-- id: -4
-  name: SD Fallback
-  description: Standard Definition Fallbacks
-  qualities:
-  - id: 18
-    name: Bluray-480p
-  - id: 19
-    name: WEBDL-480p
-  - id: 20
-    name: WEBRip-480p
-  - id: 22
-    name: DVD
 upgrade_until:
   id: -1
   name: 2160p Transparent
   description: Indistinguishable from source
-language: must_original
+language: original
