@@ -2,6 +2,7 @@ name: IMAX Enhanced
 description: ''
 tags:
 - Edition
+- Custom
 conditions:
 - name: IMAX Enhanced
   negate: false
