@@ -1,0 +1,8 @@
+name: BAT
+pattern: ^(BAT)$
+description: Matches BAT release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

@@ -1,0 +1,8 @@
+name: WTV
+pattern: ^(WTV)$
+description: Matches WTV release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

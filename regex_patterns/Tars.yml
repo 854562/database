@@ -1,0 +1,8 @@
+name: Tars
+pattern: ^(Tars)$
+description: Matches Tars release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

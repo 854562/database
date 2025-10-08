@@ -1,0 +1,8 @@
+name: C.A.A
+pattern: ^(C\.A\.A)$
+description: Matches C.A.A release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

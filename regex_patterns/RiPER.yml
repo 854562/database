@@ -1,0 +1,8 @@
+name: RiPER
+pattern: ^(RiPER)$
+description: Matches RiPER release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

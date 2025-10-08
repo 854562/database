@@ -1,0 +1,6 @@
+name: Scene Groups
+pattern: ^(?=.*(\b\d{3,4}p\b).*([_. ]WEB[_. ])(?!DL)\b)|\b(-CAKES|-GGEZ|-GGWP|-GLHF|-GOSSIP|-NAISU|-KOGI|-PECULATE|-SLOT|-EDITH|-ETHEL|-ELEANOR|-B2B|-SPAMnEGGS|-FTP|-DiRT|-SYNCOPY|-BAE|-SuccessfulCrab|-NHTFS|-SURCODE|-B0MBARDIERS|-D3US|-BROTHERHOOD|-W4K|-STRiKES|-SPARKS|-DRONES|-ROVERS|-SPRINTER|-GECKOS|-SHORTBREHD|-FilmHD|-POW4HD|-HD4U|-TENEIGHTY)
+description: TRaSH scene groups, with some additions
+tags:
+- Release Group
+tests: []

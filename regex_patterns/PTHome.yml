@@ -1,0 +1,8 @@
+name: PTHome
+pattern: ^(PTHome)$
+description: Matches PTHome release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

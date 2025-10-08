@@ -1,0 +1,8 @@
+name: ONLYMOViE
+pattern: ^(ONLYMOViE)$
+description: Matches ONLYMOViE release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

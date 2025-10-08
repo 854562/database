@@ -1,0 +1,8 @@
+name: G4RiS
+pattern: ^(G4RiS)$
+description: Matches G4RiS release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

@@ -1,0 +1,8 @@
+name: N3G4N
+pattern: ^(N3G4N)$
+description: Matches N3G4N release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []
