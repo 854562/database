@@ -1,0 +1,28 @@
+name: LQ RT S (TRaSH)
+description: Low quality groups for Sonarr by TRaSH, matched by release title
+tags:
+- Release Group
+- TRaSH
+- Banned
+conditions:
+- name: BEN THE MEN
+  negate: false
+  pattern: BEN THE MEN
+  required: false
+  type: release_title
+- name: Feranki1980
+  negate: false
+  pattern: Feranki1980
+  required: false
+  type: release_title
+- name: TeeWee
+  negate: false
+  pattern: TeeWee
+  required: false
+  type: release_title
+- name: CREATiVE24
+  negate: false
+  pattern: CREATiVE24
+  required: false
+  type: release_title
+tests: []

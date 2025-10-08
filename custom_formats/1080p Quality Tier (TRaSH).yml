@@ -1,0 +1,45 @@
+name: 1080p Quality Tier (TRaSH)
+description: Adds groups which are not in the Dictionarry Database but are tiered
+  in the TRaSH guides
+tags:
+- Release Group Tier
+- 1080p
+- Quality
+- TRaSH
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: TnP
+  negate: false
+  pattern: TnP
+  required: false
+  type: release_group
+- name: BBQ
+  negate: false
+  pattern: BBQ
+  required: false
+  type: release_group
+- name: EA
+  negate: false
+  pattern: EA
+  required: false
+  type: release_group
+- name: HiSD
+  negate: false
+  pattern: HiSD
+  required: false
+  type: release_group
+- name: QOQ
+  negate: false
+  pattern: QOQ
+  required: false
+  type: release_group
+tests: []

@@ -1,0 +1,25 @@
+name: 2160p Quality Tier (TRaSH)
+description: Adds groups which are not in the Dictionarry Database but are tiered
+  in the TRaSH guides
+tags:
+- Release Group Tier
+- 2160p
+- Quality
+- TRaSH
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: WEBDV
+  negate: false
+  pattern: WEBDV
+  required: false
+  type: release_group
+tests: []
