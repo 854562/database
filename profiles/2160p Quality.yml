@@ -39,6 +39,8 @@ custom_formats:
   score: 260000
 - name: 2160p Quality Tier 6
   score: 259000
+- name: 1080p Remux
+  score: 120000
 - name: Dolby Vision
   score: 3000
 - name: AMZN
@@ -87,12 +89,20 @@ custom_formats:
   score: 200
 - name: DTS
   score: 100
+- name: Remux Tier 1
+  score: 100
 - name: WEB-DL Tier 1
   score: 100
+- name: Remux Tier 2
+  score: 80
 - name: WEB-DL Tier 2
   score: 80
+- name: Remux Tier 3
+  score: 60
 - name: WEB-DL Tier 3
   score: 60
+- name: Remux Tier 4
+  score: 40
 - name: WEB-DL Tier 4
   score: 40
 - name: WEB-DL Tier 5
