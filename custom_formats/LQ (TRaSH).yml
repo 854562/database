@@ -1,5 +1,5 @@
-name: LQ R (TRaSH)
-description: Low quality groups for Radarr by TRaSH
+name: LQ (TRaSH)
+description: Low quality groups for Radarr and Sonarr by TRaSH
 tags:
 - Release Group
 - TRaSH
@@ -478,6 +478,21 @@ conditions:
 - name: Scene
   negate: false
   pattern: Scene
+  required: false
+  type: release_group
+- name: DepraveD
+  negate: false
+  pattern: DepraveD
+  required: false
+  type: release_group
+- name: EVO
+  negate: false
+  pattern: EVO
+  required: false
+  type: release_group
+- name: SasukeducK
+  negate: false
+  pattern: SasukeducK
   required: false
   type: release_group
 tests: []
