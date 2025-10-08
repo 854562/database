@@ -1,5 +1,5 @@
-name: LQ RT R (TRaSH)
-description: Low quality groups for Radarr by TRaSH, matched by release title
+name: LQ RT (TRaSH)
+description: Low quality groups for Radarr and Sonarr by TRaSH, matched by release title
 tags:
 - TRaSH
 - Release Group
@@ -48,6 +48,11 @@ conditions:
 - name: Will1869
   negate: false
   pattern: Will1869
+  required: false
+  type: release_title
+- name: CREATiVE24
+  negate: false
+  pattern: CREATiVE24
   required: false
   type: release_title
 tests: []
