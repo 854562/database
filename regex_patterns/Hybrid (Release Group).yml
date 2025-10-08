@@ -1,5 +1,6 @@
 name: Hybrid (Release Group)
 pattern: \\b(HYBRID)\\b
 description: Matches Hybrid release group
-tags: []
+tags:
+- Custom
 tests: []
