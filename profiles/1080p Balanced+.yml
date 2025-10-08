@@ -25,8 +25,6 @@ minScoreIncrement: 1
 custom_formats:
 - name: 1080p WEB-DL HEVC Tier 1
   score: 160000
-- name: 1080p Balanced Tier 1
-  score: 140000
 - name: 1080p WEB-DL (h264)
   score: 140000
 - name: 720p WEB-DL
@@ -174,6 +172,8 @@ custom_formats:
 custom_formats_radarr:
 - name: 1080p Bluray HEVC Tier 1
   score: 180000
+- name: 1080p Balanced Tier 1
+  score: 140000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
