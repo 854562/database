@@ -111,6 +111,8 @@ custom_formats:
   score: 40
 - name: WEB-DL Tier 5
   score: 20
+- name: WEB-DL Tier (TRaSH)
+  score: 20
 - name: Repack3
   score: 8
 - name: Repack2

@@ -1,0 +1,6 @@
+name: ZigZag
+pattern: "\\[ZigZag\\]|-ZigZab\b|^(ZigZag)$"
+description: ''
+tags:
+- TRaSH
+tests: []
