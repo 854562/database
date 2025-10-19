@@ -149,4 +149,9 @@ conditions:
   pattern: GNOMiSSiON
   required: false
   type: release_group
+- name: Dooky
+  negate: false
+  pattern: Dooky
+  required: false
+  type: release_group
 tests: []
