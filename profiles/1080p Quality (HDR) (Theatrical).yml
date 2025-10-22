@@ -197,13 +197,7 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 1080p Golden Popcorn
-  score: 8000
-- name: 720p Golden Popcorn
-  score: 6000
 - name: MA
-  score: 4000
-- name: SD Golden Popcorn
   score: 4000
 - name: IMAX Enhanced
   score: 2500

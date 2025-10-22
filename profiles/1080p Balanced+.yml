@@ -180,11 +180,7 @@ custom_formats_radarr:
   score: 180000
 - name: 1080p Balanced Tier 1
   score: 140000
-- name: 720p Golden Popcorn
-  score: 6000
 - name: MA
-  score: 4000
-- name: SD Golden Popcorn
   score: 4000
 - name: Better Theatricals
   score: 1000
