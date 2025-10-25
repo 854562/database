@@ -1,8 +1,9 @@
-name: 1080p Quality (HDR)
-description: "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+name: 1080p Quality HDR (Theatrical)
+description: "1080p Quality HDR utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
   \ to target **transparent x265 HDR** 1080p encodes. \n\n- 1080p HDR Blurays\n- Fallbacks\
   \ in Place for Proper Quality Progression\n- 1080p HDR Bluray > 1080p Bluray > 1080p\
-  \ WEB-DL > 720p Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
+  \ WEB-DL > 720p Bluray > 720p WEB-DL > 480p WEB-DL > DVD\
+  \ Bans special editions."
 tags:
 - 1080p
 - Quality Focused
@@ -206,8 +207,6 @@ custom_formats_radarr:
   score: 1000
 - name: CRIT
   score: 1000
-- name: Special Edition
-  score: 1000
 - name: 3D
   score: -999999
 - name: B&W
@@ -222,6 +221,8 @@ custom_formats_radarr:
   score: -999999
 - name: Upscale
   score: -999999
+- name: Special Edition
+  score: -999999
 custom_formats_sonarr:
 - name: Season Pack
   score: 10
@@ -233,7 +234,7 @@ custom_formats_sonarr:
   score: -999999
 qualities:
 - id: -1
-  name: Transparent Capable
+  name: 1080p Quality HDR
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
   qualities:
@@ -244,7 +245,7 @@ qualities:
   - id: 11
     name: WEBRip-1080p
 - id: -2
-  name: 720p Fallback
+  name: 720p Quality
   description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
@@ -254,7 +255,7 @@ qualities:
   - id: 15
     name: WEBRip-720p
 - id: -3
-  name: SD Fallback
+  name: 480p Quality
   description: Standard Definition Fallbacks
   qualities:
   - id: 18
@@ -267,7 +268,7 @@ qualities:
     name: DVD
 upgrade_until:
   id: -1
-  name: Transparent Capable
+  name: 1080p Quality HDR
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
 language: original
