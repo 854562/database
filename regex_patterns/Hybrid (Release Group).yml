@@ -1,5 +1,5 @@
 name: Hybrid (Release Group)
-pattern: \\b(HYBRID)\\b
+pattern: -HYBRID|\b(HYBRID)\b
 description: Matches Hybrid release group
 tags:
 - Custom

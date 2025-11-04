@@ -1,5 +1,5 @@
 name: Hybrid
-pattern: \\bhybrid(\\b|\\d)
+pattern: \bhybrid(\b|\d)
 description: 'A hybrid release means any combination of sources (video + audio) and
   not a direct encoding of a single source. Generally, you can be sure that any hybrid
   put together should be the best quality release of a particular title. However,

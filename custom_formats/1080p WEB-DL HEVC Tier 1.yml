@@ -15,9 +15,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: h265
+- name: Modern Codecs
   negate: false
-  pattern: HEVC
+  pattern: Modern Codecs
   required: true
   type: release_title
 - name: Not Weasley

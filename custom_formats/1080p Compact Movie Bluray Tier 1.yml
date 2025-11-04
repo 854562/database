@@ -16,9 +16,9 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: x265
+- name: Modern Codecs
   negate: false
-  pattern: x265 (Efficient)
+  pattern: Modern Codecs (Efficient)
   required: true
   type: release_title
 - name: QxR
