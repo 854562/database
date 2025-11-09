@@ -1,0 +1,6 @@
+name: CBR
+pattern: ^(CBR)$
+description: ''
+tags:
+- TRaSH
+tests: []
