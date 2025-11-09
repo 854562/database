@@ -40,6 +40,11 @@ conditions:
   pattern: C.A.A
   required: false
   type: release_group
+- name: CBR
+  negate: false
+  pattern: CBR
+  required: false
+  type: release_group
 - name: Cory
   negate: false
   pattern: Cory
