@@ -85,6 +85,11 @@ conditions:
   pattern: N3G4N
   required: false
   type: release_group
+- name: NeX
+  negate: false
+  pattern: NeX
+  required: false
+  type: release_group
 - name: ONLYMOViE
   negate: false
   pattern: ONLYMOViE
