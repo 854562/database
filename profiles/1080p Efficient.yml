@@ -7,7 +7,9 @@ description: '1080p Efficient seeks to target high quality x265 Bluray and WEB e
   - Fallbacks in Place for Proper Quality Progression
 
   - 1080p Bluray HEVC > 1080p WEB HEVC > 1080p WEB-DL > 720p Bluray > 720p WEB-DL
-  > 480p WEB-DL > DVD'
+  > 480p WEB-DL > DVD
+
+  - Negates single episodes so it only grabs season packs.'
 tags:
 - 1080p
 - Efficient Focused
@@ -201,8 +203,8 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-- name: Season Pack
-  score: 10
+- name: Single EP
+  score: -999999
 - name: Remux (Source)
   score: -999999
 - name: TV Extras
