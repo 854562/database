@@ -3,7 +3,7 @@ description: Matches single episode releases on Sonarr
 tags:
 - Enhancement
 conditions:
-- name: Season Pack
+- name: Not Season Pack
   negate: true
   releaseType: season_pack
   required: true

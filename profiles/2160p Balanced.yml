@@ -183,6 +183,8 @@ custom_formats:
   score: -999999
 - name: Scene (TRaSH)
   score: -999999
+- name: UHD SDR
+  score: -999999
 - name: VP9
   score: -999999
 - name: VVC
