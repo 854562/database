@@ -1,0 +1,11 @@
+name: Single Episode
+description: Matches single episode releases on Sonarr
+tags:
+- Enhancement
+conditions:
+- name: Season Pack
+  negate: true
+  releaseType: season_pack
+  required: true
+  type: release_type
+tests: []
