@@ -81,8 +81,6 @@ custom_formats:
   score: 3000
 - name: AMZN
   score: 2000
-- name: HDR10+
-  score: 2000
 - name: ATV
   score: 1000
 - name: HDR
@@ -90,6 +88,8 @@ custom_formats:
 - name: HDR (Missing)
   score: 1000
 - name: HDR10
+  score: 1000
+- name: HDR10+
   score: 1000
 - name: HLG
   score: 1000

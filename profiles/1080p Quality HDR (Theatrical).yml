@@ -80,8 +80,6 @@ custom_formats:
   score: 3000
 - name: DSNP
   score: 3000
-- name: HDR10+
-  score: 2000
 - name: HMAX
   score: 2000
 - name: MAX
@@ -93,6 +91,8 @@ custom_formats:
 - name: HDR (Missing)
   score: 1000
 - name: HDR10
+  score: 1000
+- name: HDR10+
   score: 1000
 - name: HLG
   score: 1000
