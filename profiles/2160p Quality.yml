@@ -28,31 +28,31 @@ tags:
 - h265
 upgradesAllowed: true
 minCustomFormatScore: 20000
-upgradeUntilScore: 400000
+upgradeUntilScore: 600000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Quality Tier 1
-  score: 285000
+  score: 465000
 - name: 2160p Quality Tier 2
-  score: 284000
+  score: 464000
 - name: 2160p Quality Tier 3
-  score: 283000
+  score: 463000
 - name: 2160p Quality Tier 4
-  score: 282000
+  score: 462000
 - name: 2160p Quality Tier 5
-  score: 280000
-- name: 2160p Balanced Tier 1
-  score: 264000
+  score: 460000
 - name: 2160p Balanced Tier 2
-  score: 260000
+  score: 440000
 - name: 2160p WEB-DL
-  score: 260000
-- name: 2160p Quality Tier (TRaSH)
-  score: 259000
-- name: 2160p Quality Tier 6
-  score: 259000
+  score: 440000
 - name: 1080p Remux
-  score: 120000
+  score: 440000
+- name: 2160p Quality Tier 6
+  score: 439000
+- name: 2160p Quality Tier (TRaSH)
+  score: 439000
+- name: UHD Bluray
+  score: 420000
 - name: Dolby Vision
   score: 3000
 - name: AMZN
@@ -152,7 +152,7 @@ custom_formats:
 - name: STAN
   score: 0
 - name: x265 (Bluray)
-  score: -220000
+  score: -400000
 - name: AV1
   score: -999999
 - name: Bad Dual Groups (TRaSH)
@@ -173,7 +173,7 @@ custom_formats:
   score: -999999
 - name: Scene (TRaSH)
   score: -999999
-- name: UHD SDR
+- name: SDR
   score: -999999
 - name: VP9
   score: -999999
@@ -188,6 +188,8 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
+- name: 2160p Balanced Tier 1
+  score: 442000
 - name: MA
   score: 6000
 - name: ATVP
@@ -227,6 +229,8 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: 2160p Balanced Tier 1
+  score: 444000
 - name: ATVP
   score: 3000
 - name: DSNP
