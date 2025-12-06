@@ -17,19 +17,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: TnP
-  negate: false
-  pattern: TnP
-  required: false
-  type: release_group
 - name: BBQ
   negate: false
   pattern: BBQ
-  required: false
-  type: release_group
-- name: EA
-  negate: false
-  pattern: EA
   required: false
   type: release_group
 - name: HiSD
