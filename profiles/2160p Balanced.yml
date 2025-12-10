@@ -222,8 +222,8 @@ custom_formats:
 custom_formats_radarr:
 - name: MA UHD HDR
   score: 30000
-- name: Lossless HDR
-  score: 30000
+- name: HDR Lossless
+  score: 16000
 - name: MA
   score: 6000
 - name: ATVP
