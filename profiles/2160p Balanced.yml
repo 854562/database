@@ -15,10 +15,8 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 600000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p Balanced Tier 2
-  score: 440000
 - name: 2160p WEB-DL
-  score: 440000
+  score: 410000
 - name: UHD Bluray
   score: 420000
 - name: 1080p WEB-DL
@@ -222,8 +220,10 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 2160p Balanced Tier 1
-  score: 442000
+- name: MA UHD HDR
+  score: 30000
+- name: Lossless HDR
+  score: 30000
 - name: MA
   score: 6000
 - name: ATVP
@@ -246,6 +246,8 @@ custom_formats_radarr:
   score: 1000
 - name: iTunes Enhancement
   score: -3000
+- name: MA UHD SDR
+  score: -5000
 - name: 3D
   score: -999999
 - name: B&W
@@ -261,8 +263,6 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-- name: 2160p Balanced Tier 1
-  score: 444000
 - name: ATVP
   score: 3000
 - name: DSNP

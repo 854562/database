@@ -1,0 +1,12 @@
+name: HDR Lossless
+description: Matches Dolby Vision OR HDR10 AND any lossless audio format.
+tags:
+- Audio
+- Colour grade
+conditions:
+- name: HDR Lossless
+  negate: false
+  pattern: HDR Lossless
+  required: true
+  type: release_title
+tests: []

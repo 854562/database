@@ -1,0 +1,25 @@
+name: MA UHD SDR
+description: Matches 2160p WEB-DL releases from Movies Anywhere without Dolby Vision or HDR Formats.
+tags: []
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: DV HDR
+  negate: true
+  pattern: Basic HDR Formats
+  required: true
+  type: release_title
+- name: Movies Anywhere
+  negate: false
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
+tests: []
