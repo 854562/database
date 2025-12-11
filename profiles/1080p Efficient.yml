@@ -206,35 +206,6 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-<<<<<<< HEAD
-=======
-- name: 1080p Efficient Movie Bluray Tier 1
-  score: 324000
-- name: 1080p Efficient Movie Bluray Tier 2
-  score: 323000
-- name: 1080p Efficient Movie Bluray Tier 3
-  score: 322000
-- name: Vialle Bluray
-  score: 322000
-- name: 1080p Efficient Movie Bluray Tier 4
-  score: 321000
-- name: 1080p Efficient Movie Bluray Tier 5
-  score: 320000
-- name: 1080p Efficient Movie WEB Tier 1
-  score: 303000
-- name: QxR WEB
-  score: 303000
-- name: TAoE WEB
-  score: 303000
-- name: Weasley WEB
-  score: 303000
-- name: 1080p Efficient Movie WEB Tier 2
-  score: 302000
-- name: 1080p Efficient Movie WEB Tier 3
-  score: 301000
-- name: 1080p Efficient Movie WEB Tier 4
-  score: 300000
->>>>>>> upstream/stable
 - name: MA
   score: 4000
 - name: Better Theatricals
@@ -256,49 +227,8 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-<<<<<<< HEAD
 - name: Single EP
   score: -999999
-=======
-- name: 1080p Efficient TV Bluray Tier 1
-  score: 324000
-- name: Vialle Bluray
-  score: 324000
-- name: 1080p Efficient TV Bluray Tier 2
-  score: 323000
-- name: 1080p Efficient TV Bluray Tier 3
-  score: 322000
-- name: 1080p Efficient TV Bluray Tier 4
-  score: 321000
-- name: 1080p Efficient TV Bluray Tier 5
-  score: 320000
-- name: 1080p Efficient TV WEB Tier 1
-  score: 307000
-- name: QxR WEB
-  score: 307000
-- name: TAoE WEB
-  score: 307000
-- name: Vialle WEB
-  score: 307000
-- name: Weasley WEB
-  score: 307000
-- name: 1080p Efficient TV WEB Tier 2
-  score: 306000
-- name: 1080p Efficient TV WEB Tier 3
-  score: 305000
-- name: 1080p Efficient TV WEB Tier 4
-  score: 304000
-- name: 1080p Efficient TV Bluray Tier 6
-  score: 303000
-- name: 1080p Efficient TV Bluray Tier 7
-  score: 302000
-- name: 1080p Efficient TV WEB Tier 5
-  score: 301000
-- name: 1080p Efficient TV WEB Tier 6
-  score: 300000
-- name: Season Pack
-  score: 10
->>>>>>> upstream/stable
 - name: Remux (Source)
   score: -999999
 - name: TV Extras
