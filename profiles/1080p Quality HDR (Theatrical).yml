@@ -217,10 +217,6 @@ custom_formats:
 custom_formats_radarr:
 - name: MA
   score: 4000
-- name: IMAX Enhanced
-  score: 2500
-- name: Hybrid
-  score: 2000
 - name: Better Theatricals
   score: 1000
 - name: CRIT

@@ -202,11 +202,7 @@ custom_formats_radarr:
   score: 4000
 - name: iT
   score: 4000
-- name: IMAX Enhanced
-  score: 2500
 - name: HMAX
-  score: 2000
-- name: Hybrid
   score: 2000
 - name: MAX
   score: 2000

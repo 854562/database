@@ -1,8 +1,0 @@
-name: HDR Lossless
-pattern: (?i)^(?=.*(?:\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll)(?:\b|\d)|dts[-_. :]?x\b(?!\d)|l?PCM(?:\b|\d)|FLAC(?:\b|\d))|True[ .-]?HD[ .-]?)).*(?:(?:(?<=^(?!.*\b(?:HLG|PQ|SDR)(?:\b|\d)).*?)HDR)|\b(?:dv(?![ .](?:HLG|SDR))|dovi|dolby[.]?vision)\b)
-description: Matches Dolby Vision OR HDR10 AND any lossless audio format.
-tags:
-- Enhancement
-- Colour Grade
-- HDR
-- Audio

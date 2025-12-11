@@ -1,0 +1,6 @@
+name: Lossless
+pattern: (?i)(?:\b(?:dts[-_. ]?(?:ma|hd(?:[-_. ]?ma)?|xll)(?:\b|\d)|dts[-_. :]?x\b(?!\d)|(?:l?PCM|FLAC)(?:\b|\d))|True[ .-]?HD)
+description: Matches any lossless audio format.
+tags:
+- Enhancement
+- Audio
