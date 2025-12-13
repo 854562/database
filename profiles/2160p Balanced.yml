@@ -15,10 +15,10 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 600000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p WEB-DL
-  score: 410000
 - name: UHD Bluray
-  score: 420000
+  score: 450000
+- name: 2160p WEB-DL
+  score: 440000
 - name: 1080p WEB-DL
   score: 380000
 - name: 1080p Bluray
@@ -229,9 +229,7 @@ custom_formats:
   score: -999999
 custom_formats_radarr:
 - name: MA UHD HDR
-  score: 30000
-- name: HDR Lossless
-  score: 16000
+  score: 14000
 - name: MA
   score: 6000
 - name: DSNP
@@ -252,8 +250,6 @@ custom_formats_radarr:
   score: -2000
 - name: iTunes Enhancement
   score: -3000
-- name: MA UHD SDR
-  score: -5000
 - name: 3D
   score: -999999
 - name: B&W
