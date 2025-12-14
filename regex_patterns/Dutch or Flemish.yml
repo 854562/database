@@ -1,0 +1,6 @@
+name: Dutch
+pattern: \b(DUTCH|FLEMISH)(\b|\d)
+description: 'Matches Dutch/Flemish releases.'
+tags:
+- Custom
+tests: []
