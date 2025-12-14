@@ -5,7 +5,7 @@ tags:
 - WEB-DL
 - Custom
 conditions:
-- name: PMTP Regex
+- name: VDL Regex
   negate: false
   pattern: Videoland
   required: true
