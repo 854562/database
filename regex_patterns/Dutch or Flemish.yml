@@ -1,4 +1,4 @@
-name: Dutch
+name: Dutch or Flemish
 pattern: \b(DUTCH|FLEMISH)(\b|\d)
 description: 'Matches Dutch/Flemish releases.'
 tags:
