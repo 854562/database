@@ -1,0 +1,7 @@
+name: Videoland
+pattern: \b(VDL|Videoland)\b
+description: 'Videoland is a Dutch OTT online service provider owned by RTL Nederland, a subsidiary of DPG Media.'
+tags:
+- Streaming Service
+- WEB-DL
+- Custom

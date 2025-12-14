@@ -164,6 +164,8 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
+- name: VDL
+  score: 0
 - name: Bad Dual Groups (TRaSH)
   score: -999999
 - name: Banned Groups (Efficient)

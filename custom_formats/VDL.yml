@@ -1,0 +1,22 @@
+name: VDL
+description: Matches 'Videoland' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+- Custom
+conditions:
+- name: PMTP Regex
+  negate: false
+  pattern: Videoland
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
