@@ -174,7 +174,7 @@ custom_formats:
   score: -999999
 - name: BCORE
   score: -999999
-- name: Dolby Vision
+- name: Dolby Vision (Without Fallback)
   score: -999999
 - name: Full Disc
   score: -999999
@@ -188,17 +188,7 @@ custom_formats:
   score: -999999
 - name: Scene (TRaSH)
   score: -999999
-- name: HDR
-  score: -999999
-- name: HDR10
-  score: -999999
-- name: HDR10+
-  score: -999999
-- name: HLG
-  score: -999999
 - name: Lossless Audio
-  score: -999999
-- name: PQ
   score: -999999
 - name: Remux
   score: -999999
