@@ -96,26 +96,6 @@ custom_formats:
   score: 1000
 - name: NF
   score: 1000
-- name: FLAC
-  score: 800
-- name: DTS-HD HRA
-  score: 700
-- name: Opus
-  score: 700
-- name: Dolby Digital +
-  score: 600
-- name: DTS-ES
-  score: 500
-- name: DTS-HD MA
-  score: 500
-- name: Dolby Atmos
-  score: 400
-- name: DTS
-  score: 400
-- name: Dolby Digital
-  score: 300
-- name: AAC
-  score: 200
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
@@ -180,13 +160,7 @@ custom_formats:
   score: -999999
 - name: h265 (Efficient)
   score: -999999
-- name: LQ (TRaSH)
-  score: -999999
-- name: LQ RT (TRaSH)
-  score: -999999
 - name: Remux
-  score: -999999
-- name: Scene (TRaSH)
   score: -999999
 - name: Lossless Audio
   score: -999999
@@ -306,6 +280,10 @@ custom_formats_sonarr:
   score: 641000
 - name: 1080p Compact TV Trash Tier 2
   score: 640000
+- name: 1080p WEB-DL HEVC Tier 1
+  score: 639000
+- name: HONE WEB
+  score: 639000
 - name: 720p HDTV Tier 1
   score: 80000
 - name: Season Pack
