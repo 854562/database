@@ -1,39 +1,28 @@
-name: 1080p Compact TV WEB Tier 7
-description: Matches release groups who fall under 1080p Compact WEB Tier 7
+name: 2160p Balanced Tier 3
+description: Matches release groups who fall under 2160p Balanced Tier 3
 tags:
 - Release Group Tier
-- 1080p
-- Compact
-- TV
+- 2160p
+- Balanced
 conditions:
-- name: 1080p
+- name: 2160p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 2160p
   type: resolution
-- name: Modern Codecs
+- name: Bluray
   negate: false
-  pattern: Modern Codecs (Efficient)
   required: true
-  type: release_title
-- name: WEB-DL
-  negate: false
-  required: false
-  source: web_dl
+  source: bluray
   type: source
-- name: WEBRip
+- name: BHDStudio
   negate: false
-  required: false
-  source: webrip
-  type: source
-- name: Megusta
-  negate: false
-  pattern: MeGusta
+  pattern: BHDStudio
   required: false
   type: release_group
-- name: PSA
+- name: hallowed
   negate: false
-  pattern: PSA
+  pattern: hallowed
   required: false
   type: release_group
 tests:
