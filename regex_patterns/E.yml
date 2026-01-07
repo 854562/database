@@ -1,6 +1,7 @@
 name: E
-pattern: ^(E)$|^(ENJOi|EUBDS)$
+pattern: (?<=^|[\s.-])E\b
 description: ''
 tags:
-- TRaSH
+- Release Group
+- WEB-DL
 tests: []
