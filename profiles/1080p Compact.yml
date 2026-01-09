@@ -287,8 +287,6 @@ custom_formats_sonarr:
   score: 80000
 - name: Season Pack
   score: 10
-- name: AMZN
-  score: -1000
 - name: Remux (Source)
   score: -999999
 - name: Upscaled

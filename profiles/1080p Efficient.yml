@@ -230,8 +230,8 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-- name: Single EP
-  score: -999999
+- name: Season Pack
+  score: 10
 - name: Remux (Source)
   score: -999999
 - name: TV Extras
