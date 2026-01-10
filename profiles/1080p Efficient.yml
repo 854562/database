@@ -20,10 +20,6 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 888888
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Bluray HEVC Tier 1
-  score: 360000
-- name: HONE Bluray
-  score: 360000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 340000
 - name: HONE WEB
@@ -209,6 +205,10 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
+- name: 1080p Bluray HEVC Tier 1
+  score: 360000
+- name: HONE Bluray
+  score: 360000
 - name: MA
   score: 4000
 - name: Better Theatricals
@@ -230,6 +230,10 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: 1080p Bluray HEVC Tier 1
+  score: 320000
+- name: HONE Bluray
+  score: 320000
 - name: Season Pack
   score: 10
 - name: Remux (Source)
