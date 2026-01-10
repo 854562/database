@@ -1,6 +1,6 @@
 name: Modern Codecs
 pattern: '[xh][ ._-]?265|\bHEVC(\b|\d)|\bAV1\b'
-description: 'An open source encoder that produces HEVC videos. An open source encoder that produces HEVC videos. '
+description: 'An open source encoder that produces HEVC videos. An open source encoder that produces AV1 videos. '
 tags:
 - Encoder
 - Codec

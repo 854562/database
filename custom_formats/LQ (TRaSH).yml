@@ -300,6 +300,11 @@ conditions:
   pattern: MeGusta
   required: false
   type: release_group
+- name: Mesc
+  negate: false
+  pattern: Mesc
+  required: false
+  type: release_group
 - name: mHD
   negate: false
   pattern: mHD

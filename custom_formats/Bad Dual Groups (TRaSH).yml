@@ -130,6 +130,11 @@ conditions:
   pattern: tokar86a
   required: false
   type: release_group
+- name: TURG
+  negate: false
+  pattern: TURG
+  required: false
+  type: release_group
 - name: TvR
   negate: false
   pattern: TvR
