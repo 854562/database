@@ -147,6 +147,8 @@ custom_formats:
   score: 0
 - name: VDL
   score: 0
+- name: ASL
+  score: -999999
 - name: Bad Dual Groups (TRaSH)
   score: -999999
 - name: Banned Groups (Efficient)
