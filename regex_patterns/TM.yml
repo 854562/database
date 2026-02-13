@@ -1,0 +1,8 @@
+name: TM
+pattern: ^(TM)$
+description: Matches TM release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []

@@ -1,0 +1,8 @@
+name: MGE
+pattern: ^(MGE)$
+description: Matches MGE release group, from TRaSH guides Bad Dual Groups
+tags:
+- Release Group
+- Bad Dual Groups
+- TRaSH
+tests: []
