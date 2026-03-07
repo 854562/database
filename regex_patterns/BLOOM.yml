@@ -1,0 +1,8 @@
+name: BLOOM
+pattern: (?<=^|[\s.-])BLOOM\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+- TRaSH
+tests: []

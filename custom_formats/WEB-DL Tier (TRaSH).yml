@@ -19,6 +19,11 @@ conditions:
   pattern: ABBIE
   required: false
   type: release_group
+- name: BLOOM
+  negate: false
+  pattern: BLOOM
+  required: false
+  type: release_group
 - name: MiU
   negate: false
   pattern: MiU
